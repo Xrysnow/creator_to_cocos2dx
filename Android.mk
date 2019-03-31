@@ -52,7 +52,8 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/. \
                     $(LOCAL_PATH)/dragonbones/events \
                     $(LOCAL_PATH)/dragonbones/factories \
                     $(LOCAL_PATH)/dragonbones/core \
-                    $(LOCAL_PATH)/dragonbones/geom
+                    $(LOCAL_PATH)/dragonbones/geom \
+                    $(LOCAL_PATH)/dragonbones
 LOCAL_STATIC_LIBRARIES := cocos2d_lua_static
 LOCAL_STATIC_LIBRARIES += dragonbones_static
 include $(BUILD_STATIC_LIBRARY)
